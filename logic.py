@@ -51,7 +51,7 @@ class Logic(QMainWindow, Ui_MainWindow):
         except ButtonException: 
             self.error_label.setText("<font color='green'>Please Choose A Candidate </font>")
         except LengthException: 
-            self.error_label.setText("<font color='yellow'>Please Enter 8 Digits</font>")
+            self.error_label.setText("<font color='blue'>Please Enter 8 Digits</font>")
         except IdError: 
             self.error_label.setText("<font color='Purple'>Already Voted</font>")
             
